@@ -5,10 +5,13 @@ module.exports = {
     extend: {
       colors: {
         primary: '#ff6363',
-        secondary:{
+        secondary: {
           100: '#e2e2d5',
           200: '#888883',
         }
+      },
+      fontFamily: {
+        body: ['Nunito'],
       }
     },
   },
