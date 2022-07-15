@@ -7,15 +7,15 @@
   <link rel="stylesheet" href="styles.css" />
  </head>
  <body class="text-gray-500 font-body">
-  <div>
+  <div class="grid md:grid-cols-3">
    <!-- content wrapper -->
-   <div>
+   <div class="md:col-span-1">
     <nav>
      <div class="">
       <h1 class="font-bold uppercase p-4 border-b border-gray-100">
        <a
         href="#"
-        class="text-green-500 text-sm md:text-xl sm:text-red-500 lg:text-blue-500"
+        class="text-green-500 text-sm md:text-xl"
        >
         Food Ninja</a
        >
@@ -41,7 +41,7 @@
     </nav>
    </div>
    <!-- end nav -->
-   <main class="px-16 py-16 bg-gray-50">
+   <main  class="px-16 py-16 bg-gray-50 md:col-span-2">
     <div class="flex md:justify-end xs:justify-center sm:justify-center">
      <a class="text-primary" href="#"> Log in </a>
      <a class="text-primary ml-2" href="#"> Sign up </a>
@@ -55,7 +55,7 @@
      <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">
       Latest Recipes
      </h4>
-     <div class="mt-8">
+     <div class="mt-8 grid  lg:grid-cols-3 gap-10">
       <!-- Cards go here -->
       <div class="card">
        <img
